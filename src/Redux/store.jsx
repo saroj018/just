@@ -3,5 +3,7 @@ import counterReducer from './slicer/counteSlicer'
 
 
 export const store=configureStore({
-    reducer:counterReducer
+    reducer:{
+        count:counterReducer,
+    }
 })
